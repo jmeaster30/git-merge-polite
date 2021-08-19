@@ -1,0 +1,4 @@
+[merge "polite"]
+  name = A custom union driver that puts their changes before yours.
+  driver = python3 git-merge-polite.py %O %A %B
+
